@@ -35,18 +35,25 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />-->
 
+                <Button
+                    Text="Labelのページ"
+                    Clicked="OnNextClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    />
+
             <Button
-                Text="Labelのページ"
-                FontAttributes="Bold,Italic"
-                Clicked="OnNextClicked"
+                Text="CurrentTimeのページ"
+            FontAttributes="Bold,Italic"
+                Clicked="OnGoToCurrentTimePageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 />
 
             <Button
-                Text="CurrentTimeのページ"
+                Text="DataListsのページ"
                 FontAttributes="Bold,Italic"
-                Clicked="OnGoToCurrentTimePageClicked"
+                Clicked="OnGoToDataListsPageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 />

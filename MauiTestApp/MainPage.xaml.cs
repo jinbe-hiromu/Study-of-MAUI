@@ -31,5 +31,9 @@ public partial class MainPage : ContentPage
         Navigation.PushAsync(new CurrentTimePage());
     }
 
+    private void OnGoToDataListsPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new DataLists());
+    }
 }
 
