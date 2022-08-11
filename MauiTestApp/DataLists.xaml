@@ -11,7 +11,7 @@
         <Button
             Text="前へ"
             FontAttributes="Bold"
-            Clicked="OnPrevClicked"
+            Clicked="OnGoBackClicked"
             HorizontalOptions="Center"
             VerticalOptions="Center"/>
 
