@@ -15,36 +15,15 @@
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
-            <!--<Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
             <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />-->
-
-                <Button
-                    Text="Labelのページ"
-                    Clicked="OnNextClicked"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    />
+                Text="Labelのページ"
+                Clicked="OnNextClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
 
             <Button
                 Text="CurrentTimeのページ"
-            FontAttributes="Bold,Italic"
                 Clicked="OnGoToCurrentTimePageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -52,7 +31,13 @@
 
             <Button
                 Text="DataListsのページ"
-                FontAttributes="Bold,Italic"
+                Clicked="OnGoToDataListsPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
+
+            <Button
+                Text="テキスト入力のページ"
                 Clicked="OnGoToDataListsPageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"

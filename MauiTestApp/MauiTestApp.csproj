@@ -61,6 +61,9 @@
 	  <MauiXaml Update="DataLists.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	  <MauiXaml Update="TextPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
