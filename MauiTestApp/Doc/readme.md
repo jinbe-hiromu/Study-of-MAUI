@@ -27,5 +27,15 @@ Windowsでデバッグするためには開発者モードを有効にする必�
 [解決策]
 コマンドプロンプトで以下を実行
 
+    cd <MAUIのプロジェクト>
     dotnet workload install maccatalyst
 
+以下のエラーが出る場合、NugetPackageManagerを設定する
+
+```
+広告マニフェスト microsoft.net.sdk.android を更新できませんでした: ソース https://xxx のサービス インデックスを読み込めません。。
+広告マニフェスト microsoft.net.sdk.ios を更新できませんでした: ソース https://xxx のサービス インデックスを読み込めません。。
+広告マニフェスト microsoft.net.sdk.maccatalyst を更新できませんでした: ソース https://xxx のサービス インデックスを読み込めません。。
+```
+
+![NugetPackageManager](.\Picture\NugetPackageManager.png)

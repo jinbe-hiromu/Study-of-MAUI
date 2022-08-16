@@ -38,7 +38,7 @@ public partial class MainPage : ContentPage
 
     private void OnGoToTextPageClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new DataLists());
+        Navigation.PushAsync(new TextPage());
     }
 }
 

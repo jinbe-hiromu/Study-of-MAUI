@@ -46,6 +46,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Prism.Core" Version="8.1.97" />
+	  <PackageReference Include="ReactiveProperty" Version="8.1.2" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="NextPage.xaml.cs">
 	    <DependentUpon>NextPage.xaml</DependentUpon>
 	  </Compile>

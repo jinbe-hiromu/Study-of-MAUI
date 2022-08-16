@@ -38,7 +38,7 @@
 
             <Button
                 Text="テキスト入力のページ"
-                Clicked="OnGoToDataListsPageClicked"
+                Clicked="OnGoToTextPageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 />
