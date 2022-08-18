@@ -71,4 +71,11 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+		<None Remove="Resources\Images\book.jpg" />
+		<None Remove="Resources\Images\book.png" />
+		<None Remove="Resources\Images\cook.png" />
+		<None Remove="Resources\Images\cook.jpg" />
+	</ItemGroup>
+
 </Project>
