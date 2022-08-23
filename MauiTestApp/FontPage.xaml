@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTestApp.FontPage"
+             Title="FontPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Text="フォントの変更"/>
+        <Label Text="0123456789ABCDEFG"
+               Grid.Row="1"
+               FontFamily="times"
+               FontSize="20"/>
+        <Label Text="0123456789ABCDEFG"
+               Grid.Row="2"
+               FontFamily="OpenSans-Regular"
+               FontSize="20"/>
+        <Label Text="0123456789ABCDEFG"
+               Grid.Row="3"
+               FontFamily="OpenSans-Semibold"
+               FontSize="20"/>
+        <Grid.ColumnDefinitions>
+            
+        </Grid.ColumnDefinitions>
+    </Grid>
+</ContentPage>

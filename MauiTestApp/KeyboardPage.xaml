@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTestApp.KeyboardPage"
+             Title="KeyboardPage">
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Label Text="数値入力"
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="32"/>
+        <Entry x:Name="text1" FontSize="Large" Keyboard="Numeric"/>
+
+        <Label Text="文字列入力"
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="32"/>
+        
+        <Entry x:Name="text2" FontSize="Small" Keyboard="Chat"/>
+
+    </VerticalStackLayout>
+</ContentPage>

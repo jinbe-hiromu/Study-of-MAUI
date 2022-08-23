@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTestApp.ImagePage"
+             Title="ImagePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Text="画像を表示する" Grid.ColumnSpan="3" FontSize="20" HorizontalTextAlignment="Center"/>
+        <Image Source="rakuten_panda.png" Grid.Row="1" Grid.Column="0"/>
+        <Image Source="rakuten_panda2.png" Grid.Row="1" Grid.Column="1"/>
+        <Image Source="rakuten_panda3.jpg" Grid.Row="1" Grid.Column="2"/>
+        <Image Source="rakuten_panda2.png" Grid.Row="2" Grid.Column="0"/>
+        <Image Source="rakuten_panda3.jpg" Grid.Row="2" Grid.Column="1"/>
+        <Image Source="rakuten_panda.png" Grid.Row="2" Grid.Column="2"/>
+        <Image Source="rakuten_panda3.jpg" Grid.Row="3" Grid.Column="0"/>
+        <Image Source="rakuten_panda.png" Grid.Row="3" Grid.Column="1"/>
+        <Image Source="rakuten_panda2.png" Grid.Row="3" Grid.Column="2"/>
+    </Grid>
+</ContentPage>

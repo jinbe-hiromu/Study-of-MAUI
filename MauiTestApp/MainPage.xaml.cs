@@ -28,5 +28,40 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new TextPage());
     }
+
+    private void OnGoToImagePageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ImagePage());
+    }
+
+    private void OnGoToFontPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new FontPage());
+    }
+
+    private void OnGoToMarginPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MarginPage());
+    }
+
+    private void OnGoToListPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ListPage());
+    }
+
+    private void OnGoToSwitchPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new SwitchPage());
+    }
+
+    private void OnGoToSliderPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new SliderPage());
+    }
+
+    private void OnGoToKeyboardPageClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new KeyboardPage());
+    }
 }
 

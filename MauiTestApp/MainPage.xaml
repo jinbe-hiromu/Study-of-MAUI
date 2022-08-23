@@ -4,22 +4,36 @@
              x:Class="MauiTestApp.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="10"
-            Padding="20,0"
-            VerticalOptions="Center">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Grid.RowSpan="2"
+                Grid.ColumnSpan="4"/>
 
             <Button
                 Text="Labelのページ"
                 Clicked="OnNextClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="0"
                 />
 
             <Button
@@ -27,6 +41,8 @@
                 Clicked="OnGoToCurrentTimePageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="1"
                 />
 
             <Button
@@ -34,6 +50,8 @@
                 Clicked="OnGoToDataListsPageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="2"
                 />
 
             <Button
@@ -41,9 +59,75 @@
                 Clicked="OnGoToTextPageClicked"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="3"
                 />
 
-        </VerticalStackLayout>
+            <Button
+                Text="画像のページ"
+                Clicked="OnGoToImagePageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="0"
+                />
+
+            <Button
+                Text="フォントのページ"
+                Clicked="OnGoToFontPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="1"
+                />
+
+            <Button
+                Text="マージンのページ"
+                Clicked="OnGoToMarginPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="2"
+                />
+
+            <Button
+                Text="リストのページ"
+                Clicked="OnGoToListPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="3"
+                />
+
+            <Button
+                Text="Switchのページ"
+                Clicked="OnGoToSwitchPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="4"
+                Grid.Column="0"
+                />
+
+            <Button
+                Text="スライダーのページ"
+                Clicked="OnGoToSliderPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="4"
+                Grid.Column="1"
+                />
+
+            <Button
+                Text="キーボードのページ"
+                Clicked="OnGoToKeyboardPageClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="4"
+                Grid.Column="2"
+                />
+        </Grid>
+        
+
     </ScrollView>
 
 </ContentPage>
