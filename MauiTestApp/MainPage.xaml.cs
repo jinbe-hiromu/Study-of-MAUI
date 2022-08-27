@@ -63,5 +63,20 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new KeyboardPage());
     }
+
+    private void OnGoToScreenTransitionClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ScreenTransitionPage());
+    }
+
+    private void OnGoToDialogClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new DialogPage());
+    }
+
+    private void OnGoToBlueToothClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new BlueTooth());
+    }
 }
 

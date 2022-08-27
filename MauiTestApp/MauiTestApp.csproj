@@ -51,13 +51,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="BlueToothPage.xaml.cs">
+	    <DependentUpon>BlueToothPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="NextPage.xaml.cs">
 	    <DependentUpon>NextPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="BlueToothPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="CurrentTimePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DialogPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="FontPage.xaml">
@@ -80,6 +89,9 @@
 	  </MauiXaml>
 	  <MauiXaml Update="DataLists.xaml">
 	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="ScreenTransitionPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SliderPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>

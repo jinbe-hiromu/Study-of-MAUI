@@ -11,6 +11,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -124,6 +125,33 @@
                 VerticalOptions="Center"
                 Grid.Row="4"
                 Grid.Column="2"
+                />
+
+            <Button
+                Text="画面遷移のページ"
+                Clicked="OnGoToScreenTransitionClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="4"
+                Grid.Column="3"
+                />
+
+            <Button
+                Text="ダイヤログのページ"
+                Clicked="OnGoToDialogClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="5"
+                Grid.Column="0"
+                />
+
+            <Button
+                Text="BlueToothのページ"
+                Clicked="OnGoToBlueToothClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="5"
+                Grid.Column="1"
                 />
         </Grid>
         
