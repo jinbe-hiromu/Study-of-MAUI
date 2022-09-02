@@ -78,5 +78,10 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new BlueTooth());
     }
+
+    private void OnGoToWebApiClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new WebApiPage());
+    }
 }
 

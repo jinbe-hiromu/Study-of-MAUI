@@ -153,6 +153,15 @@
                 Grid.Row="5"
                 Grid.Column="1"
                 />
+
+            <Button
+                Text="WebApiのページ"
+                Clicked="OnGoToWebApiClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="5"
+                Grid.Column="2"
+                />
         </Grid>
         
 
