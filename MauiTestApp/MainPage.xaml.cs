@@ -83,5 +83,10 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new WebApiPage());
     }
+
+    private void OnGoToWebApiLambdaClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new WebApiLambda());
+    }
 }
 
