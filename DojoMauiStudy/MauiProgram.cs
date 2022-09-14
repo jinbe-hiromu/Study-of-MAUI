@@ -1,4 +1,4 @@
-﻿namespace DojoMauiStudy;
+﻿namespace Notes;
 
 public static class MauiProgram
 {

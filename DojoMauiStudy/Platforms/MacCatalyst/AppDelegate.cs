@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace DojoMauiStudy;
+namespace Notes;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

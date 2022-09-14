@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace DojoMauiStudy;
+namespace Notes;
 
 [Application]
 public class MainApplication : MauiApplication

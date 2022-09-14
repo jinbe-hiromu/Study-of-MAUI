@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace DojoMauiStudy;
+namespace Notes;
 
 public class Program
 {

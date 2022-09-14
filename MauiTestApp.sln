@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiTestApp", "MauiTestApp\MauiTestApp.csproj", "{AC591226-7ABD-4DD4-B17D-7013E8EAAB00}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DojoMauiStudy", "DojoMauiStudy\DojoMauiStudy.csproj", "{939A25DC-61A8-41B8-ABB3-32B157A53C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes", "DojoMauiStudy\Notes.csproj", "{939A25DC-61A8-41B8-ABB3-32B157A53C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
