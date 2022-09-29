@@ -88,5 +88,10 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new WebApiLambda());
     }
+
+    private void OnGoToCalenderClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new CalenderPage());
+    }
 }
 

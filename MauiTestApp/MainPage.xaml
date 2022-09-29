@@ -12,6 +12,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -170,6 +171,15 @@
                 VerticalOptions="Center"
                 Grid.Row="5"
                 Grid.Column="3"
+                />
+
+            <Button
+                Text="カレンダーのページ"
+                Clicked="OnGoToCalenderClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="6"
+                Grid.Column="0"
                 />
         </Grid>
         
