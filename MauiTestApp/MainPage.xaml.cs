@@ -93,5 +93,20 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new CalenderPage());
     }
+
+    private void OnGoToBrowserClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new BrowserPage());
+    }
+
+    private void OnGoToAccelerometerClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AccelerometerPage());
+    }
+
+    private void OnGoToGpsClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new GpsPage());
+    }
 }
 

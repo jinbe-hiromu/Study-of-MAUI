@@ -181,6 +181,33 @@
                 Grid.Row="6"
                 Grid.Column="0"
                 />
+
+            <Button
+                Text="ブラウザのページ"
+                Clicked="OnGoToBrowserClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="6"
+                Grid.Column="1"
+                />
+
+            <Button
+                Text="加速度センサーのページ"
+                Clicked="OnGoToAccelerometerClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="6"
+                Grid.Column="2"
+                />
+
+            <Button
+                Text="GPSのページ"
+                Clicked="OnGoToGpsClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="6"
+                Grid.Column="3"
+                />
         </Grid>
         
 
