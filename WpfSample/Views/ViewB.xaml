@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WpfSample.Views.ViewB"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <StackPanel>
+            <Label Content="ViewB画面"
+                   FontSize="40"
+                   Foreground="Blue"/>
+            <TextBox Text="{Binding ViewBTextBox}"/>
+            <Button Content="OK"
+                    Command="{Binding OkCommand}"/>
+        </StackPanel>
+            
+    </Grid>
+</UserControl>

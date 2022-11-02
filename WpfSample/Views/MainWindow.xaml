@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfSample.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <Label Content="システム日時"/>
+            <Label Content="{Binding SystemDate}"/>
+            <Button Content="システム日時更新"
+                    Command="{Binding UpdateSystemDateCommand}"/>
+            <Button Content="画面Aを表示"
+                    Command="{Binding ShowViewACommand}"/>
+            <Button Content="画面Aを表示(パラメータ付き)"
+                    Command="{Binding ShowViewAWithParamCommand}"/>
+            <Button Content="画面Bを表示"
+                    Command="{Binding ShowViewBCommand}"/>
+            <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        </StackPanel>
+    </Grid>
+</Window>
