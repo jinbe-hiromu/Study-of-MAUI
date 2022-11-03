@@ -2,111 +2,111 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+    int count = 0;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
-
-	private void OnNextClicked(object sender,EventArgs e)
-	{
-		Navigation.PushAsync(new NewPage1());
-	}
-
-    private void OnGoToCurrentTimePageClicked(object sender, EventArgs e)
+    public MainPage()
     {
-        Navigation.PushAsync(new CurrentTimePage());
+        InitializeComponent();
     }
 
-    private void OnGoToDataListsPageClicked(object sender, EventArgs e)
+    private void OnNextClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new DataLists());
+        Navigation.PushAsync(new NewPage1());
     }
 
-    private void OnGoToTextPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new TextPage());
-    }
+    //private void OnGoToCurrentTimePageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new CurrentTimePage());
+    //}
 
-    private void OnGoToImagePageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new ImagePage());
-    }
+    //private void OnGoToDataListsPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new DataLists());
+    //}
 
-    private void OnGoToFontPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new FontPage());
-    }
+    //private void OnGoToTextPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new TextPage());
+    //}
 
-    private void OnGoToMarginPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new MarginPage());
-    }
+    //private void OnGoToImagePageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new ImagePage());
+    //}
 
-    private void OnGoToListPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new ListPage());
-    }
+    //private void OnGoToFontPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new FontPage());
+    //}
 
-    private void OnGoToSwitchPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new SwitchPage());
-    }
+    //private void OnGoToMarginPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new MarginPage());
+    //}
 
-    private void OnGoToSliderPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new SliderPage());
-    }
+    //private void OnGoToListPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new ListPage());
+    //}
 
-    private void OnGoToKeyboardPageClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new KeyboardPage());
-    }
+    //private void OnGoToSwitchPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new SwitchPage());
+    //}
 
-    private void OnGoToScreenTransitionClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new ScreenTransitionPage());
-    }
+    //private void OnGoToSliderPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new SliderPage());
+    //}
 
-    private void OnGoToDialogClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new DialogPage());
-    }
+    //private void OnGoToKeyboardPageClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new KeyboardPage());
+    //}
 
-    private void OnGoToBlueToothClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new BlueTooth());
-    }
+    //private void OnGoToScreenTransitionClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new ScreenTransitionPage());
+    //}
 
-    private void OnGoToWebApiClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new WebApiPage());
-    }
+    //private void OnGoToDialogClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new DialogPage());
+    //}
 
-    private void OnGoToWebApiLambdaClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new WebApiLambda());
-    }
+    //private void OnGoToBlueToothClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new BlueTooth());
+    //}
 
-    private void OnGoToCalenderClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new CalenderPage());
-    }
+    //private void OnGoToWebApiClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new WebApiPage());
+    //}
 
-    private void OnGoToBrowserClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new BrowserPage());
-    }
+    //private void OnGoToWebApiLambdaClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new WebApiLambda());
+    //}
 
-    private void OnGoToAccelerometerClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new AccelerometerPage());
-    }
+    //private void OnGoToCalenderClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new CalenderPage());
+    //}
 
-    private void OnGoToGpsClicked(object sender, EventArgs e)
-    {
-        Navigation.PushAsync(new GpsPage());
-    }
+    //private void OnGoToBrowserClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new BrowserPage());
+    //}
+
+    //private void OnGoToAccelerometerClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new AccelerometerPage());
+    //}
+
+    //private void OnGoToGpsClicked(object sender, EventArgs e)
+    //{
+    //    Navigation.PushAsync(new GpsPage());
+    //}
 }
 
